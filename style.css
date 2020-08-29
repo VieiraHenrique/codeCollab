@@ -21,9 +21,7 @@
 
 /***** BASIC RESET *******/
 
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -154,7 +152,93 @@ img {
 
 .features p {
     color: var(--grey-light);
+    font-size: 1.4rem;
 }
 
 /**** CTA ****/
 
+.cta .container {
+    padding: 5rem 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta p {
+    max-width: 60%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cta img {
+    width: 70%;
+}
+
+/**** PLANS ****/
+
+.plans {
+    background: var(--white);
+}
+
+.plans .container {
+    padding: 5rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans__text {
+    max-width: 60%;
+    text-align: center;
+}
+
+.plans__options {
+    display: flex;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.plans__options div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 8rem;
+}
+
+.plans__options--monthly {
+    border-right: 1px solid var(--black);
+
+}
+
+/***** BRANDS *****/
+
+.brands .container {
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.brands__text {
+    max-width: 40%;
+}
+
+.brands__logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+
+.brands__logos img {
+    display: block;
+    width: 8rem;
+}
