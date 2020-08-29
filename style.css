@@ -1,3 +1,24 @@
+/**** FONT IMPORT *****/
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600&display=swap');
+
+/***** VARIABLES ********/
+
+:root {
+    --font-one: 'Baloo Tamma 2', sans-serif;
+    --color-primary: rgb(49, 96, 199);
+    --color-primary-light: rgb(92, 137, 233);
+    --color-primary-dark: rgb(34, 68, 143);
+    --color-secondary: rgb(255, 210, 7);
+    --color-secondary-light: rgb(255, 229, 112);
+    --color-secondary-dark: rgb(202, 148, 0);
+    --white: #fff;
+    --black: #4e4e4e;
+    --grey-dark: rgb(88, 88, 88);
+    --grey-light: rgb(202, 202, 202);
+    
+}
+
 /***** BASIC RESET *******/
 
 *,

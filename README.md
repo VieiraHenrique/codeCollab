@@ -4,7 +4,11 @@ This repo contains a starting HTML/CSS project.
 
 HTML is already linked to style.css and to script.js
 
+The CSS imports the default font of "Baloo Tamma 2" and establishes some default variables.
+Both are to be changed following the project.
+
 The CSS contains already a "reset".
+
 
 ```css
 
