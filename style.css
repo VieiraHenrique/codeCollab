@@ -6,9 +6,9 @@
 
 :root {
     --font-one: 'Baloo Tamma 2', sans-serif;
-    --color-primary: rgb(49, 96, 199);
-    --color-primary-light: rgb(92, 137, 233);
-    --color-primary-dark: rgb(34, 68, 143);
+    --color-primary: #3093F7;
+    --color-primary-light: #71b8ff;
+    --color-primary-dark: #3F4655;
     --color-secondary: rgb(255, 210, 7);
     --color-secondary-light: rgb(255, 229, 112);
     --color-secondary-dark: rgb(202, 148, 0);
