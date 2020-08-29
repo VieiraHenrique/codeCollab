@@ -13,9 +13,9 @@
     --color-secondary-light: rgb(255, 229, 112);
     --color-secondary-dark: rgb(202, 148, 0);
     --white: #fff;
-    --black: #4e4e4e;
-    --grey-dark: rgb(88, 88, 88);
-    --grey-light: rgb(202, 202, 202);
+    --black: #232323;
+    --grey-dark: #4e4e4e;
+    --grey-light: #E9EDF2;
     
 }
 
@@ -29,7 +29,6 @@
     box-sizing: border-box;
     border: 0;
     outline: 0;
-    content: '';
 }
 
 html {
@@ -38,7 +37,9 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: sans-serif; /* INSERT FONT */
+    font-family: 'Baloo Tamma 2', sans-serif; /* INSERT FONT */
+    background: var(--grey-light);
+    color: var(--black);
 }
 
 ul {
@@ -54,4 +55,61 @@ img {
     height: auto;
 }
 
+.container {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
 /****************************/
+
+.nav .container {
+    height: 7rem;
+    display: flex;
+    justify-content: space-between; /* NOT DISPLAYING PROPERLY */
+    align-items: center;
+}
+
+.nav__left ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 3rem;
+}
+
+.logo img {
+    width: 3.5rem;
+}
+
+.nav__left--grey {
+    color: var(--grey-dark);
+}
+
+.nav__right ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn {
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--black);
+    cursor: pointer;
+}
+
+.btn-blue {
+    background: var(--color-primary);
+    color: var(--white);
+}
+
+.btn-white {
+    background: var(--white);
+    color: var(--black);
+}
