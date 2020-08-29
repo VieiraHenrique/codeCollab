@@ -291,3 +291,42 @@ img {
 .register__security {
     text-align: center;
 }
+
+/***** FOOTER *****/
+
+.footer {
+    background: var(--color-primary-dark);
+    color: var(--grey-light);
+    padding: 5rem 10rem;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 1.4rem;
+}
+
+.footer__links--title {
+    color: rgb(175, 175, 175);
+}
+
+.footer__social {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.footer__social i {
+    font-size: 3.5rem;
+    color: var(--grey-light);
+}
+
+.footer__copy {
+    color: rgb(175, 175, 175);
+    text-align: center;
+    font-size: 1.2rem;
+}
