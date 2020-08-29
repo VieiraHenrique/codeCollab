@@ -113,3 +113,48 @@ img {
     background: var(--white);
     color: var(--black);
 }
+
+/****** HEADER ******/
+
+.header .container {
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-weight: 300;
+    margin: 5rem 0;
+}
+
+/**** FEATURES ****/
+
+.features {
+    background: var(--color-primary-dark);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: var(--white);
+}
+
+.features img {
+    width: 15rem;
+}
+
+.features div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+    border-right: 1px solid var(--black);
+}
+
+.features h3 {
+    margin: 1rem 0;
+}
+
+.features p {
+    color: var(--grey-light);
+}
+
+/**** CTA ****/
+
