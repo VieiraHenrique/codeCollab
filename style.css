@@ -287,3 +287,7 @@ img {
     margin: 0 auto;
     text-align: center;
 }
+
+.register__security {
+    text-align: center;
+}
